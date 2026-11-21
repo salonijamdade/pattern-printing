@@ -10,10 +10,10 @@ for i in range(1,n+1): # i times it will iterate rows
 
 m=4
 sp=0
-for i in range(m,0,-1):
-    for j in range(n-i):
+for i in range(m,0,-1): # this will start from 5 4 3 2 1
+    for j in range(n-i): # this will print spaces by n-i
         print(end=" ")
-    for s in range(0,i*2-1):
+    for s in range(0,i*2-1): # this will calculate how many stars to print 
         print("*",end="")
     print()
-    sp+=1
+    sp+=1 #increment spc counter
